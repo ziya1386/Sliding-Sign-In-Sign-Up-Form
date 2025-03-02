@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        function num1(){
+            let a = Number(document.getElementById("txt1").value);
+            let b = Number(document.getElementById("txt2").value);
+
+            if(a>b)
+            {confirm("عدد سمت چپ بزرگ تر است");}
+            else
+            {confirm("عدد سمت راست بزرگ تر است");}
+        }
+    </script>
+  
+  <input type="text" placeholder="your number 1" id="txt1">
+  <input type="text" placeholder="your number 2" id="txt2">
+  <input type="button" value="enter" onclick="num1()">
+  
+</body>
+</html>
